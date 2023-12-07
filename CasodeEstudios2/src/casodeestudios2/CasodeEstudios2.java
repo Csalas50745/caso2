@@ -18,6 +18,8 @@ public class CasodeEstudios2 {
     public static void main(String[] args) {
         // TODO code application logic here
 
+        // Aqui se registra cada nuevo en el app
+        
         Amigo[] amigos = new Amigo[6];
         amigos[0] = new Amigo(JOptionPane.showInputDialog("Digite su nombre: "));
         amigos[1] = new Amigo(JOptionPane.showInputDialog("Digite su nombre: "));
@@ -34,7 +36,7 @@ public class CasodeEstudios2 {
         amigos[4].agregarGasto(Integer.parseInt(JOptionPane.showInputDialog("Digite sus gastos:")));
         amigos[5].agregarGasto(Integer.parseInt(JOptionPane.showInputDialog("Digite sus gastos:")));
 
-        // Aqui se registra cada gasto
+        // Aqui se registra cada gasto en el viaje
         double gastoTotal = 0;
         for (Amigo amigo : amigos) {
             gastoTotal += amigo.getDineroGastado();
@@ -45,6 +47,8 @@ public class CasodeEstudios2 {
 
         }
 
+        // Aqui se registra cuanto debe:
+        
         Grupo grupo = new Grupo(6);
 
         grupo.agregarMovimiento(" ", -5);

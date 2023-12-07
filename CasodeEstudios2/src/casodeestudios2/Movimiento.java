@@ -9,5 +9,12 @@ package casodeestudios2;
  * @author charliesalas
  */
 public class Movimiento {
+
+    String nombre;
+    double monto; 
+
+    public Movimiento(String nombre, double monto) {
+    this.nombre = nombre;
+    this.monto = monto;
     
 }

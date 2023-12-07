@@ -47,11 +47,11 @@ public class CasodeEstudios2 {
 
         Grupo grupo = new Grupo(6);
 
-        grupo.agregarMovimiento("Tavo", -5);
-        grupo.agregarMovimiento("David", -20);
-        grupo.agregarMovimiento("Greivin", 115);
-        grupo.agregarMovimiento("Joshua", -60);
-        grupo.agregarMovimiento("Andres", -60);
+        grupo.agregarMovimiento(" ", -5);
+        grupo.agregarMovimiento(" ", -20);
+        grupo.agregarMovimiento(" ", 115);
+        grupo.agregarMovimiento(" ", -60);
+        grupo.agregarMovimiento(" ", -60);
 
         grupo.calcularSaldoTotal();
 
